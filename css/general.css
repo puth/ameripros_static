@@ -16,7 +16,8 @@ body{
 	background-image: -webkit-linear-gradient(bottom, #092782 11%, #9EB6DE 100%);
 	background-image: -ms-linear-gradient(bottom, #092782 11%, #9EB6DE 100%);
 	background-image: linear-gradient(to bottom, #092782 11%, #9EB6DE 100%);
-		
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#092782', endColorstr='#9EB6DE');/*For IE7-8-9*/
+	
 }
 
 a{
@@ -61,10 +62,10 @@ table tr td{
 	background-image: -webkit-linear-gradient(left, #07267A 0%, #3B56B8 52%, #0D226E 100%);
 	background-image: -ms-linear-gradient(left, #07267A 0%, #3B56B8 52%, #0D226E 100%);
 	background-image: linear-gradient(to left, #07267A 0%, #3B56B8 52%, #0D226E 100%);
-	
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#07267A', endColorstr='#0D226E');/*For IE7-8-9*/
 	-webkit-box-shadow: -1px -2px 7px 0px rgba(50, 50, 50, 0.75);
-	-moz-box-shadow:    -1px -2px 7px 0px rgba(50, 50, 50, 0.75);
-	box-shadow:         -1px -2px 7px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow: -1px -2px 7px 0px rgba(50, 50, 50, 0.75);
+	box-shadow: -1px -2px 7px 0px rgba(50, 50, 50, 0.75);
 	
 }
 .footer{
@@ -160,6 +161,7 @@ table tr td{
 	-webkit-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.75);
 	-moz-box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.75);
 	box-shadow: 0px 0px 19px 0px rgba(50, 50, 50, 0.75);
+	filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#ffffff', endColorstr='#cbccc8');/*For IE7-8-9*/
 }
 .main-content > .title{
 	font-size : 26px;

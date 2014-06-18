@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <head>
 	<title>AmeriPros</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=9" />
 	<link rel="stylesheet" href="css/general.css" />
 </head>
 <body>
