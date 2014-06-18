@@ -2,6 +2,7 @@ body{
 	background: url('../img/static/background.png') top center repeat-x;
 	padding : 0;
 	margin : 0;
+	font-family: Arial, Helvetica, sans-serif;
 }
 a{
 	text-decoration: none;
@@ -14,26 +15,30 @@ a{
 .footer-wrapper{
 	width : 100%;
 	margin-top : 20px;
+	padding-bottom : 20px;
 	background-color : #04065A;
-	height: 200px;
+	height: auto;
 	color : #FFFFFF;
 	border-top : 1px solid #FFFFFF;
 }
 .footer{
-	padding-top : 40px;
+	padding-top : 20px;
 	width : 1000px;
 	margin : 0 auto;
 }
-.footer > .content{
+.footer-content{
 	width : 330px;
 	border-right : 1px solid #FFFFFF;
 	display: inline;
 }
+.footer ul{
+	margin-left : -20px;
+}
 .footer > .copy-right{
+	margin-top : 20px;
 	text-align : center;
 	margin: 0 auto;
 }
-
 /*--------- TOP LINK ---------*/
 .language{
 	text-align: right;
@@ -58,8 +63,9 @@ a{
 	border-bottom-right-radius : 4px;
 	padding:8px 10px 8px;
 	border : 0;
-	background :yellow;
+	background : url('../img/static/background-menu.png') center repeat-x;
 	cursor: pointer;
+	color : #FFFFFF;
 } 
 .top-link button:hover{
 	background : gold;
